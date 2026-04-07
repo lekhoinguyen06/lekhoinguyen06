@@ -1,16 +1,75 @@
-## Hi there 👋
+# Hi there, I'm Nguyen (Benz)!
 
-<!--
-**lekhoinguyen06/lekhoinguyen06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Lifelong builder & learner**
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔥 About Me
+
+I love building things that *may actually matter*.
+I believe there’s no limit to what we can build and learning never stops.
+
+> *“The people who are crazy enough to think they can change the world are the ones who do.”* – Steve Jobs
+
+
+
+### 💡 Featured Project
+
+#### [Walker](https://github.com/lekhoinguyen06/walker)
+
+An open-source front-end library to propel an AI-human driven UI/UX future.
+
+
+### 🧰 Technology
+
+#### Favorite Languages
+* 💙 TypeScript  
+* 🦀 Rust  
+* ⚙️ C++  
+* 🧪 Others (exploring & experimenting)
+
+
+#### Tools, Frameworks & Cloud
+
+Fluent With
+- ⚛️ React (Vite)  
+- 🎨 Tailwind CSS  
+- 🧩 NestJS  
+
+Worked With
+- ☁️ AWS (CDK)  
+- 🏗️ Terraform  
+- 📊 Google Colab  
+- 🤖 Keras  
+- 🐳 Docker  
+
+
+
+### 🌱 What Drives Me
+
+I love:
+
+* 🚀 Building impactful projects
+* 📚 Learning new technologies
+* 🤝 Collaborating with passionate people
+* 🌍 Working toward a better world through tech
+
+
+
+### 🎯 Hobbies
+
+When I'm not coding, you'll probably find me:
+
+- 🎬 Watching movies (series, sitcomts - all-time: Breaking Bad, Friends, The Big Bang Theory, HIMYM, Prison Break, Suits, Narcos, ...)
+- ⚽ Playing / watching football (I am a Liverpool fan)
+- 😂 Enjoying comedy (stand-up, sitcoms, etc.)  
+- 💻 Coding… even when it's supposed to be a break  
+
+
+
+### 📫 Let's Connect
+
+Feel free to explore my projects, open issues, or just say hi!
+
+⭐️ If you like what I’m building, consider giving it a star!
+
+---
