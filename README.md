@@ -52,10 +52,10 @@ Worked With
 
 I love:
 
-* 🚀 Building impactful projects
+* 🚀 Building projects
 * 📚 Learning new technologies
 * 🤝 Collaborating with passionate people
-* 🌍 Working toward a better world through tech
+* 🌍 Working toward a better world
 
 
 
