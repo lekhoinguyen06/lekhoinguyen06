@@ -38,9 +38,10 @@ Fluent With
 Worked With
 - ☁️ AWS (CDK)  
 - 🏗️ Terraform  
+- ⚡ Figma
+- 🐳 Docker
 - 📊 Google Colab  
 - 🤖 Keras  
-- 🐳 Docker  
 
 
 
