@@ -21,11 +21,17 @@ An open-source front-end library to propel an AI-human driven UI/UX future.
 
 ### 🧰 Technology
 
-#### Favorite Languages
+#### Languages
+
+Favorite
 * 💙 TypeScript  
-* 🦀 Rust  
-* ⚙️ C++  
-* 🧪 Others (exploring & experimenting)
+* 🦀 Rust
+
+Fluent
+* ⚙️ C++
+
+Worked with
+* 🐍 Python=
 
 
 #### Tools, Frameworks & Cloud
