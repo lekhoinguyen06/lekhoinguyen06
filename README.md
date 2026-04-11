@@ -5,7 +5,7 @@
 
 ### 🔥 About Me
 
-*“The people who are crazy enough to think they can change the world are the ones who do.”* – Steve Jobs
+*“The people who are crazy enough to think they can change the world are the ones who do.”* – Steve Jobs<br>
 I love working on meaningful project toward the future. I believe there’s no limit to what we can build and learning never stops.
 
 
