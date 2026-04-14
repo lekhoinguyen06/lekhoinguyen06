@@ -1,6 +1,4 @@
-# Hi there, I'm Nguyen (Benz)!
-
-**Lifelong builder & learner**
+# Hi there, I'm Nguyen!
 
 
 ### 🔥 About Me
