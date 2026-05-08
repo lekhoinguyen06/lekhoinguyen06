@@ -4,7 +4,7 @@
 ### 🔥 About Me
 
 *“The people who are crazy enough to think they can change the world are the ones who do.”* – Steve Jobs<br>
-I love working on meaningful project toward the future. I believe there’s no limit to what we can build and learning never stops.
+I love working on innovative project toward the future or somethign new.
 
 
 ### 💡 Featured Project
@@ -22,11 +22,9 @@ Favorite
 * 💙 TypeScript  
 * 🦀 Rust
 
-Fluent
+I also work with
 * ⚙️ C++
-
-Worked with
-* 🐍 Python=
+* 🐍 Python
 
 
 #### Tools, Frameworks & Cloud
@@ -63,8 +61,7 @@ When I'm not coding, you'll probably find me:
 
 - 🎬 Watching movies (series, sitcomts - all-time: Breaking Bad, Friends, The Big Bang Theory, HIMYM, Prison Break, Suits, Narcos, ...)
 - ⚽ Playing / watching football (I am a Liverpool fan)
-- 😂 Enjoying comedy (stand-up, sitcoms, etc.)  
-- 💻 Coding… even when it's supposed to be a break  
+- 😂 Enjoying comedy (stand-up, sitcoms, etc.) 
 
 
 
