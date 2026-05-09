@@ -1,50 +1,9 @@
 # Hi there, I'm Nguyen!
 
 
-### 🔥 About Me
+## 🔥 About Me
 
 *“The people who are crazy enough to think they can change the world are the ones who do.”* – Steve Jobs<br>
-I love working on innovative project toward the future or somethign new.
-
-
-### 💡 Featured Project
-
-#### [Walker](https://github.com/lekhoinguyen06/walker)
-
-An open-source front-end library to propel an AI-human driven UI/UX future.
-
-
-### 🧰 Technology
-
-#### Languages
-
-Favorite
-* 💙 TypeScript  
-* 🦀 Rust
-
-I also work with
-* ⚙️ C++
-* 🐍 Python
-
-
-#### Tools, Frameworks & Cloud
-
-Fluent With
-- ⚛️ React (Vite)  
-- 🎨 Tailwind CSS  
-- 🧩 NestJS  
-
-Worked With
-- ☁️ AWS (CDK)  
-- 🏗️ Terraform  
-- ⚡ Figma
-- 🐳 Docker
-- 📊 Google Colab  
-- 🤖 Keras  
-
-
-
-### 🌱 What Drives Me
 
 I love:
 
@@ -54,18 +13,41 @@ I love:
 * 🌍 Working toward a better world
 
 
+## 🧰 Technology
 
-### 🎯 Hobbies
+### Languages
+
+Favorites
+* 💙 TypeScript  
+* 🦀 Rust
+
+I also work with
+* ⚙️ C++
+* 🐍 Python
+
+
+### Tools, Frameworks & Cloud
+- IaC: ☁️ AWS (CDK), 🏗️ Terraform
+- Design: ⚡ Figma
+- Frontend: ⚛️ React, ⚡ Vite, 🎨 Tailwind CSS
+- Backend: 🛡️ NestJS, 🚀 Encore
+- ORM: 🔺 Prisma, 💧 Drizzle
+- AI: 🤖 Keras, 🧠 LangGraph
+- Containers: 🐳 Docker
+- Data Science: 📊 Google Colab
+
+
+## 🎯 Hobbies
 
 When I'm not coding, you'll probably find me:
 
-- 🎬 Watching movies (series, sitcomts - all-time: Breaking Bad, Friends, The Big Bang Theory, HIMYM, Prison Break, Suits, Narcos, ...)
+- 🎬 Watching movies (series, sitcomts - all-time: Breaking Bad, Friends, The Big Bang Theory, HIMYM, Prison Break, Suits, Narcos,...)
 - ⚽ Playing / watching football (I am a Liverpool fan)
 - 😂 Enjoying comedy (stand-up, sitcoms, etc.) 
 
 
 
-### 📫 Let's Connect
+## 👋 Let's Connect
 
 Feel free to explore my projects, open issues, or just say hi!
 
