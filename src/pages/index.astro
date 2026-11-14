@@ -1,0 +1,200 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Block from "../components/Block.astro";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+    <Block>
+        <div class="relative size-full flex sm:flex-row flex-col gap-8">
+            <img
+                src="/me.jpg"
+                alt="Le Khoi Nguyen"
+                class="sm:w-60 aspect-60/105 w-full"
+            />
+            <div class="w-full flex flex-col gap-4 p-4">
+                <div class="text-4xl font-brand">Lê Khôi Nguyên</div>
+                <div>
+                    “The people who are crazy enough to think they can change
+                    the world are the ones who do.” – Steve Jobs
+                </div>
+                <div>Birthday: 06/02/2007</div>
+                <div>Hometown: Hồ Chí Minh, Việt Nam</div>
+                <a
+                    href="mailto:khoinguyenbenz@gmail.com?subject=Hi%20Nguyen!&body=I%20saw%20your%20website"
+                    class="w-fit hover:bg-blue-500 hover:text-white"
+                >
+                    Please contact via email at khoinguyenbenz@gmail.com
+                </a>
+            </div>
+            <img
+                src="/le.svg"
+                alt="Signature"
+                class="absolute h-[67px] bottom-0 right-0"
+            />
+        </div>
+    </Block>
+    <Block title="About">
+        <div class="w-full flex flex-col">
+            <div class="font-semibold mb-4">Values</div>
+            <li class="ml-4">
+                <span class="font-bold">Authenticity.</span> I rather be myself
+                than a bloated version of me. The only way to knows who loves
+                you is to be you.
+            </li>
+            <li class="ml-4">
+                <span class="font-bold">Love.</span> It is all that matters at
+                the end of the day. The journey we go and the people we are
+                with.
+            </li>
+            <li class="ml-4">
+                <span class="font-bold">For what matters.</span> A better world.
+                I believe our purpose, the secret sauce to fulfillment, is to
+                serve. The question always is: “How can I help?”.
+            </li>
+        </div>
+        <div class="w-full flex flex-col">
+            <div class="font-semibold mb-4">Obsessions</div>
+            <li class="ml-4">
+                <span class="font-bold">Ownership.</span> Coding is a craft.
+                Creation is uniquely human. AI should only report, debug, or
+                refactor. Or else we are doomed. I would love to support someone
+                “try” rather than a “perfect” projects that their creator(s)
+                does not even cares. “People don't buy what you do, they buy why
+                you do it.” - Simon Sinek.
+            </li>
+            <li class="ml-4">
+                <span class="font-bold">Smooth operator.</span> We are living in
+                a world of abundance, it is time to care more. I am obsessed
+                with accessibility. I want to create softwares that is just easy
+                to use.
+            </li>
+        </div>
+    </Block>
+    <Block title="Skills">
+        <div class="font-semibold">Fluent</div>
+        <div class="w-full flex flex-wrap gap-8">
+            <img src="/ts.svg" alt="Typescript" class="h-8" />
+            <img src="/react.svg" alt="React" class="h-8" />
+            <img src="/tw.svg" alt="Tailwind" class="h-8" />
+            <img src="/figma.svg" alt="Figma" class="h-8" />
+        </div>
+        <div class="font-semibold">Familar (or messed around with)</div>
+        <div class="w-full flex flex-wrap gap-8">
+            <span>Fullstack frameworks</span>
+            <img src="/svelte.svg" alt="Svelte" class="h-8" />
+            <img src="/effect.svg" alt="Effect" class="h-8" />
+            <span>|</span>
+            <span>Languages</span>
+            <img src="/cpp.svg" alt="C++" class="h-8" />
+            <img src="/py.svg" alt="Python" class="h-8" />
+            <img src="/rs.svg" alt="Rust" class="h-8" />
+            <img src="/ocaml.svg" alt="OCaml" class="h-8" />
+            <span>|</span>
+            <span>CI/CD</span>
+            <img src="/ga.svg" alt="Github Actions" class="h-8" />
+            <span>|</span>
+            <span>Cloud providers</span>
+            <img src="/cf.svg" alt="Cloudflare" class="h-8" />
+            <img src="/aws.svg" alt="Amazon Web Service" class="h-8" />
+        </div>
+        <div class="font-semibold">Would like to be fluent in</div>
+        <div>
+            I believe Svelte & Effect might be the future of the web; Rust is
+            just so cool; I love publishing packages and I would love to know
+            how to do SemVer and NPM publishing better.
+        </div>
+        <div class="w-full flex flex-wrap gap-8">
+            <img src="/svelte.svg" alt="Svelte" class="h-8" />
+            <img src="/effect.svg" alt="Effect" class="h-8" />
+            <img src="/rs.svg" alt="Rust" class="h-8" />
+            <img src="/semver.svg" alt="SemVer" class="h-8" />
+            <img src="/npm.svg" alt="NPM" class="h-8" />
+        </div>
+    </Block>
+    <Block title="History">
+        <div class="w-full flex flex-col">
+            <div class="font-semibold mb-4">Education</div>
+            <li class="ml-4">Hồ Văn Huê Primary School - from grade 1 to 4</li>
+            <li class="ml-4">Vinschool Central Park - from grade 5 to 12</li>
+            <li class="ml-4">
+                Ho Chi Minh Institution of Technology (HCMUT) - Bachelor of
+                Computer Science - from 2025 to 2029 (expected)
+            </li>
+        </div>
+        <div class="w-full flex flex-col">
+            <div class="font-semibold mb-4">Work</div>
+            <li class="ml-4">
+                ECV Vietnam - Internship - from October to December of 2025
+            </li>
+            <li class="ml-4">
+                Vstaffs - Founder (self-employed & not incorporated) - from
+                January of 2026
+            </li>
+            <li class="ml-4">
+                Walker - Author (self-employed & open-source) - from January of
+                2026
+            </li>
+        </div>
+    </Block>
+    <Block title="Links">
+        <div class="w-full flex flex-col">
+            <li class="ml-4">
+                Personal website at
+                <a
+                    href="https://lekhoinguyen.com"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://lekhoinguyen.com
+                </a>
+            </li>
+            <li class="ml-4">
+                Personal Linkedin profile at
+                <a
+                    href="https://www.linkedin.com/in/lekhoinguyen"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://www.linkedin.com/in/lekhoinguyen
+                </a>
+            </li>
+            <li class="ml-4">
+                Github at
+                <a
+                    href="https://github.com/lekhoinguyen06"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://github.com/lekhoinguyen06
+                </a>
+            </li>
+            <li class="ml-4">
+                Walker at
+                <a
+                    href="https://walker.vstaffs.com"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://walker.vstaffs.com
+                </a>
+            </li>
+            <li class="ml-4">
+                Vstaffs at
+                <a
+                    href="https://vstaffs.com"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://vstaffs.com
+                </a>
+            </li>
+            <li class="ml-4">
+                Bánh Mì at
+                <a
+                    href="https://www.npmjs.com/package/banhmi"
+                    class="mx-4 hover:bg-blue-500 hover:text-white"
+                >
+                    https://www.npmjs.com/package/banhmi
+                </a>
+            </li>
+        </div>
+    </Block>
+</Layout>
