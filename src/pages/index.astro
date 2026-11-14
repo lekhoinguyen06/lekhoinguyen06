@@ -95,30 +95,38 @@ import Npm from "../assets/npm.svg";
     </Block>
     <Block title="Skills">
         <div class="font-semibold">Fluent</div>
-        <div class="w-full flex flex-wrap gap-8">
+        <div class="w-full flex flex-wrap gap-4 sm:gap-8">
             <Ts aria-label="Typescript" height={32} />
             <ReactLogo aria-label="React" height={32} />
             <Tw aria-label="Tailwind" height={32} />
             <Figma aria-label="Figma" height={32} />
         </div>
         <div class="font-semibold">Familar (or messed around with)</div>
-        <div class="w-full flex flex-wrap gap-8">
+        <div class="w-full flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-8">
             <span>Fullstack frameworks</span>
-            <Svelte aria-label="Svelte" height={32} />
-            <Effect aria-label="Effect" height={32} />
-            <span>|</span>
+            <div class="flex flex-wrap gap-4 sm:gap-8">
+                <Svelte aria-label="Svelte" height={32} />
+                <Effect aria-label="Effect" height={32} />
+            </div>
+            <span class="hidden sm:block">|</span>
             <span>Languages</span>
-            <Cpp aria-label="C++" height={32} />
-            <Py aria-label="Python" height={32} />
-            <Rs aria-label="Rust" height={32} />
-            <Ocaml aria-label="OCaml" height={32} />
-            <span>|</span>
+            <div class="flex flex-wrap gap-4 sm:gap-8">
+                <Cpp aria-label="C++" height={32} />
+                <Py aria-label="Python" height={32} />
+                <Rs aria-label="Rust" height={32} />
+                <Ocaml aria-label="OCaml" height={32} />
+            </div>
+            <span class="hidden sm:block">|</span>
             <span>CI/CD</span>
-            <Ga aria-label="Github Actions" height={32} />
-            <span>|</span>
+            <div class="flex flex-wrap gap-4 sm:gap-8">
+                <Ga aria-label="Github Actions" height={32} />
+            </div>
+            <span class="hidden sm:block">|</span>
             <span>Cloud providers</span>
-            <Cf aria-label="Cloudflare" height={32} />
-            <Aws aria-label="Amazon Web Service" height={32} />
+            <div class="flex flex-wrap gap-4 sm:gap-8">
+                <Cf aria-label="Cloudflare" height={32} />
+                <Aws aria-label="Amazon Web Service" height={32} />
+            </div>
         </div>
         <div class="font-semibold">Would like to be fluent in</div>
         <div>
@@ -126,7 +134,7 @@ import Npm from "../assets/npm.svg";
             just so cool; I love publishing packages and I would love to know
             how to do SemVer and NPM publishing better.
         </div>
-        <div class="w-full flex flex-wrap gap-8">
+        <div class="w-full flex flex-wrap gap-4 sm:gap-8">
             <Svelte aria-label="Svelte" height={32} />
             <Effect aria-label="Effect" height={32} />
             <Rs aria-label="Rust" height={32} />
