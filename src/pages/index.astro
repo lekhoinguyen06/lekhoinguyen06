@@ -1,6 +1,24 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import Block from "../components/Block.astro";
+import meImage from "../assets/me.jpg";
+import Le from "../assets/le.svg";
+import Ts from "../assets/ts.svg";
+import ReactLogo from "../assets/react.svg";
+import Tw from "../assets/tw.svg";
+import Figma from "../assets/figma.svg";
+import Svelte from "../assets/svelte.svg";
+import Effect from "../assets/effect.svg";
+import Cpp from "../assets/cpp.svg";
+import Py from "../assets/py.svg";
+import Rs from "../assets/rs.svg";
+import Ocaml from "../assets/ocaml.svg";
+import Ga from "../assets/ga.svg";
+import Cf from "../assets/cf.svg";
+import Aws from "../assets/aws.svg";
+import Semver from "../assets/semver.svg";
+import Npm from "../assets/npm.svg";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -8,11 +26,13 @@ import Block from "../components/Block.astro";
 
 <Layout>
     <Block>
-        <div class="relative size-full flex sm:flex-row flex-col gap-8">
-            <img
-                src="/me.jpg"
+        <div class="relative size-full flex sm:flex-row items-center flex-col gap-8">
+            <Image
+                src={meImage}
                 alt="Le Khoi Nguyen"
-                class="sm:w-60 aspect-60/105 w-full"
+                layout="constrained"
+                width={240}
+                height={420}
             />
             <div class="w-full flex flex-col gap-4 p-4">
                 <div class="text-4xl font-brand">Lê Khôi Nguyên</div>
@@ -29,10 +49,10 @@ import Block from "../components/Block.astro";
                     Please contact via email at khoinguyenbenz@gmail.com
                 </a>
             </div>
-            <img
-                src="/le.svg"
-                alt="Signature"
-                class="absolute h-[67px] bottom-0 right-0"
+            <Le
+                aria-label="Signature"
+                height={67}
+                class="absolute bottom-0 right-0"
             />
         </div>
     </Block>
@@ -76,29 +96,29 @@ import Block from "../components/Block.astro";
     <Block title="Skills">
         <div class="font-semibold">Fluent</div>
         <div class="w-full flex flex-wrap gap-8">
-            <img src="/ts.svg" alt="Typescript" class="h-8" />
-            <img src="/react.svg" alt="React" class="h-8" />
-            <img src="/tw.svg" alt="Tailwind" class="h-8" />
-            <img src="/figma.svg" alt="Figma" class="h-8" />
+            <Ts aria-label="Typescript" height={32} />
+            <ReactLogo aria-label="React" height={32} />
+            <Tw aria-label="Tailwind" height={32} />
+            <Figma aria-label="Figma" height={32} />
         </div>
         <div class="font-semibold">Familar (or messed around with)</div>
         <div class="w-full flex flex-wrap gap-8">
             <span>Fullstack frameworks</span>
-            <img src="/svelte.svg" alt="Svelte" class="h-8" />
-            <img src="/effect.svg" alt="Effect" class="h-8" />
+            <Svelte aria-label="Svelte" height={32} />
+            <Effect aria-label="Effect" height={32} />
             <span>|</span>
             <span>Languages</span>
-            <img src="/cpp.svg" alt="C++" class="h-8" />
-            <img src="/py.svg" alt="Python" class="h-8" />
-            <img src="/rs.svg" alt="Rust" class="h-8" />
-            <img src="/ocaml.svg" alt="OCaml" class="h-8" />
+            <Cpp aria-label="C++" height={32} />
+            <Py aria-label="Python" height={32} />
+            <Rs aria-label="Rust" height={32} />
+            <Ocaml aria-label="OCaml" height={32} />
             <span>|</span>
             <span>CI/CD</span>
-            <img src="/ga.svg" alt="Github Actions" class="h-8" />
+            <Ga aria-label="Github Actions" height={32} />
             <span>|</span>
             <span>Cloud providers</span>
-            <img src="/cf.svg" alt="Cloudflare" class="h-8" />
-            <img src="/aws.svg" alt="Amazon Web Service" class="h-8" />
+            <Cf aria-label="Cloudflare" height={32} />
+            <Aws aria-label="Amazon Web Service" height={32} />
         </div>
         <div class="font-semibold">Would like to be fluent in</div>
         <div>
@@ -107,11 +127,11 @@ import Block from "../components/Block.astro";
             how to do SemVer and NPM publishing better.
         </div>
         <div class="w-full flex flex-wrap gap-8">
-            <img src="/svelte.svg" alt="Svelte" class="h-8" />
-            <img src="/effect.svg" alt="Effect" class="h-8" />
-            <img src="/rs.svg" alt="Rust" class="h-8" />
-            <img src="/semver.svg" alt="SemVer" class="h-8" />
-            <img src="/npm.svg" alt="NPM" class="h-8" />
+            <Svelte aria-label="Svelte" height={32} />
+            <Effect aria-label="Effect" height={32} />
+            <Rs aria-label="Rust" height={32} />
+            <Semver aria-label="SemVer" height={32} />
+            <Npm aria-label="NPM" height={32} />
         </div>
     </Block>
     <Block title="History">
