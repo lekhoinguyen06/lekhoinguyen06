@@ -19,6 +19,9 @@ import Cf from "../assets/cf.svg";
 import Aws from "../assets/aws.svg";
 import Semver from "../assets/semver.svg";
 import Npm from "../assets/npm.svg";
+import Tf from "../assets/tf.svg";
+import Pulumi from "../assets/pulumi.svg";
+import Alchemy from "../assets/alchemy.svg";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -71,25 +74,24 @@ import Npm from "../assets/npm.svg";
             </li>
             <li class="ml-4">
                 <span class="font-bold">For what matters.</span> A better world.
-                I believe our purpose, the secret sauce to fulfillment, is to
-                serve. The question always is: “How can I help?”.
+                I believe our purpose, the secret to fulfillment, is to serve.
+                The question always is: “How can I help?”.
             </li>
         </div>
         <div class="w-full flex flex-col">
             <div class="font-semibold mb-4">Obsessions</div>
             <li class="ml-4">
-                <span class="font-bold">Ownership.</span> Coding is a craft.
-                Creation is uniquely human. AI should only report, debug, or
-                refactor. Or else we are doomed. I would love to support someone
-                “try” rather than a “perfect” projects that their creator(s)
-                does not even cares. “People don't buy what you do, they buy why
-                you do it.” - Simon Sinek.
+                <span class="font-bold">Ownership.</span> No ownership no
+                innovation. AI is a general machine, it struggles operating on
+                the unknowns. I believe AI should only consult, not decide how
+                the world is built. I still type code by hand because that is
+                the rate at which I consume knowledge.
             </li>
             <li class="ml-4">
                 <span class="font-bold">Smooth operator.</span> We are living in
                 a world of abundance, it is time to care more. I am obsessed
-                with accessibility. I want to create softwares that is just easy
-                to use.
+                with accessibility. I want to create softwares that are just
+                easy to use.
             </li>
         </div>
     </Block>
@@ -101,7 +103,7 @@ import Npm from "../assets/npm.svg";
             <Tw aria-label="Tailwind" height={32} />
             <Figma aria-label="Figma" height={32} />
         </div>
-        <div class="font-semibold">Familar (or messed around with)</div>
+        <div class="font-semibold">Messed around with</div>
         <div class="w-full flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-8">
             <span>Fullstack frameworks</span>
             <div class="flex flex-wrap gap-4 sm:gap-8">
@@ -120,6 +122,13 @@ import Npm from "../assets/npm.svg";
             <span>CI/CD</span>
             <div class="flex flex-wrap gap-4 sm:gap-8">
                 <Ga aria-label="Github Actions" height={32} />
+            </div>
+            <span class="hidden sm:block">|</span>
+            <span>IaC</span>
+            <div class="flex flex-wrap gap-4 sm:gap-8">
+                <Tf aria-label="Terraform" height={32} />
+                <Pulumi aria-label="Pulumi" height={32} />
+                <Alchemy aria-label="Alchemy" height={32} />
             </div>
             <span class="hidden sm:block">|</span>
             <span>Cloud providers</span>
@@ -220,7 +229,7 @@ import Npm from "../assets/npm.svg";
                     href="https://www.npmjs.com/package/banhmi"
                     class="hover:bg-blue-500 hover:text-white font-light"
                 >
-                    https://www.npmjs.com/package/banhmi
+                    https://github.com/lekhoinguyen06/banhmi
                 </a>
             </li>
         </div>
